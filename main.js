@@ -1,6 +1,165 @@
 
+
 //!..................................1
 
+
+// function longerThan5 (rngString){
+//     if(rngString.length > 5){
+//         return "longer"
+//     }
+//     return "short"
+// }
+
+// var tempString = "shalom"
+
+// longerThan5 (tempString)
+
+//!...................................2
+
+// function foundAInstring (rngString){
+//     if(rngString.indexOf("a") != -1){
+//         return rngString.indexOf("a")
+//     }
+//     return "not found"
+// }
+
+// var tempString = "shalom"
+
+// foundAInstring(tempString)
+
+//!.....................................3
+
+
+// function foundRInstring (rngString){
+//     if(rngString.indexOf("r") != -1){
+//         return true
+//     }
+//     return false
+// }
+
+// var tempString = "shalom"
+
+// foundRInstring(tempString)
+
+//!......................................4
+
+
+// function foundCharInstring (rngString, rngChar){
+//     if(rngString.indexOf(rngChar) != -1){
+//         return true
+//     }
+//     return false
+// }
+
+// var tempString = "shalom"
+// var tempChar = "s"
+
+// foundCharInstring(tempString, tempChar)
+
+//!.......................................5
+
+// function foundCharInstring (rngString, rngChar){
+//     if(rngString.lastIndexOf(rngChar) != -1){
+//         return rngString.lastIndexOf(rngChar)
+//     }
+//     return `${rngChar} isn't in the string ${rngString}`
+// }
+
+// var tempString = "shalom"
+// var tempChar = "s"
+
+// foundCharInstring(tempString, tempChar)
+
+//!..........................................6
+
+// function getFisrtsCharSayonara(){
+//     return "sayonara".substr(0,2)
+// }
+
+// console.log(getFisrtsCharSayonara())
+
+//!..........................................9
+
+// function getCharSayonara(){
+//     return "sayonara".substr("sayonara".indexOf("o"))
+// }
+
+// console.log(getCharSayonara);
+
+//!..........................................10
+
+// function compareStrAndIndex(rngString, rngIndex){
+//     if(rngIndex > rngString.length){
+//         return "this index is too big"
+//     }
+//     return rngString.substr(rngString)
+// }
+
+// var tempString = "shalom";
+// var tempIndex = 7;
+
+// console.log(compareStrAndIndex(tempString, tempIndex));
+
+//!...........................................11
+
+// function compareStrAndIndex(rngString, rngIndex){
+//     if(rngIndex > rngString.length){
+//         return "this index is too big"
+//     }
+//     return rngString.substr(rngString,rngString+2)
+// }
+
+// var tempString = "shalom";
+// var tempIndex = 7;
+
+// console.log(compareStrAndIndex(tempString, tempIndex+2));
+
+//!...............................................12
+
+// function getStringByNumbers(rngString,num1,num2){
+//    return rngString.substring(num1,num2)
+// }
+
+// var tempString = "shalom";
+// var i = 0
+// while(i<1){
+//     var number1 = prompt("enter a number")
+//     var number2 = prompt("enter a number")
+    
+//     if(number1 && number2 < tempString.length){
+//         i++
+//     }
+    
+// }
+
+// console.log(getStringByNumbers(number1,number2))
+
+//!..............................................13
+
+// function getFisrtsCharSayonara(){
+//     return "sayonara".substring(0,3)
+// }
+
+// console.log(getFisrtsCharSayonara())
+
+//!..............................................14
+
+
+// function getCharSayonara(){
+//     return "sayonara".substr("sayonara".indexOf("y"),"sayonara".indexOf("y")+3)
+// }
+
+// console.log(getCharSayonara);
+
+//!.................................................15
+
+// function getCharSayonara(){
+//     return "sayonara".substr("sayonara".indexOf("o"))
+// }
+
+// console.log(getCharSayonara);
+
+//!................................................16
 
 
 // function printLongStr (str1, str2){
@@ -17,9 +176,27 @@
 // let longName = printLongStr(firstName, lasttName)
 // console.log(longName);
 
+//!..................................17
 
 
-//!...................................2
+
+// function getEquleString (str1, str2){
+//     if(str1.toLowerCase() ==  str2.toLowerCase()){
+//         return true
+//     }
+
+//     return false
+// }
+
+// let firststr = prompt("enter your first name")
+// let secondstr = prompt("enter your last name")
+
+// let longName = getEquleString(firststr, secondstr)
+// console.log(longName);
+
+
+
+//!...................................18
 
 
 
@@ -53,7 +230,7 @@
 
 
 
-//!................................3
+//!................................19
 
 
 
@@ -85,7 +262,7 @@
 
 
 
-//!...............................4
+//!...............................20
 
 
 
@@ -103,7 +280,7 @@
 
 
 
-//!................................5
+//!................................21
 
 
 
@@ -121,7 +298,7 @@
 
 
 
-//!................................6
+//!................................22
 
 
 
@@ -140,7 +317,7 @@
 
 
 
-//!.................................7
+//!.................................23
 
 
 
@@ -159,7 +336,7 @@
 
 
 
-//!.................................8
+//!.................................24
 
 
 
@@ -175,7 +352,7 @@
 
 
 
-//!..................................9
+//!..................................25
 
 
 
@@ -195,7 +372,7 @@
 
 
 
-//!.................................10
+//!.................................26
 
 
 
